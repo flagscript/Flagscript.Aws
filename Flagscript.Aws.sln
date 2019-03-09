@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A6BF3025-082C-4D68-87E4-9E7F595D5107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flagscript.Aws", "src\Flagscript.Aws\Flagscript.Aws.csproj", "{13ED800F-87F5-4C77-AF9F-902F144A20E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2FA76BA3-41B9-49C9-9AA0-8FCA9AE77AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flagscript.Aws.Test", "test\Flagscript.Aws.Test\Flagscript.Aws.Test.csproj", "{82F2A869-3692-4C0D-9148-240B9F0ED19A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Debug|x64.Build.0 = Debug|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Debug|x86.Build.0 = Debug|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Release|x64.ActiveCfg = Release|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Release|x64.Build.0 = Release|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Release|x86.ActiveCfg = Release|Any CPU
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1}.Release|x86.Build.0 = Release|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Debug|x64.Build.0 = Debug|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Debug|x86.Build.0 = Debug|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Release|x64.ActiveCfg = Release|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Release|x64.Build.0 = Release|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Release|x86.ActiveCfg = Release|Any CPU
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13ED800F-87F5-4C77-AF9F-902F144A20E1} = {A6BF3025-082C-4D68-87E4-9E7F595D5107}
+		{82F2A869-3692-4C0D-9148-240B9F0ED19A} = {2FA76BA3-41B9-49C9-9AA0-8FCA9AE77AAA}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		description = .NET Standard Base Library when working with Amazon Web Services.
+		version = 1.0.0
+	EndGlobalSection
+EndGlobal

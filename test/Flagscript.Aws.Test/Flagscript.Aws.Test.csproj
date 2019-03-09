@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ReleaseVersion>1.0.0</ReleaseVersion>
+    <PackageId>Flagscript.Aws.Test</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Flagscript, Greg Kaestle</Authors>
+    <PackageIconUrl>https://raw.githubusercontent.com/flagscript/Flagscript/master/flagscript-nuget.png</PackageIconUrl>
+    <NeutralLanguage>es-US</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/flagscript/Flagscript.Aea/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Owners>Flagscript</Owners>
+    <PackageProjectUrl>https://github.com/flagscript/Flagscript.Aws</PackageProjectUrl>
+    <Summary>Unit Tests for Flagscript.Aws.</Summary>
+    <PackageTags>aws, flagscript, dotnet, dotnet-core, dotnet-standard, dotnet-library</PackageTags>
+    <Title>Flagscript.Aws</Title>
+    <Description>Unit Tests for Flagscript.Aws.</Description>
+    <PackageReleaseNotes>Initial Release. </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Flagscript.Aws\Flagscript.Aws.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Startup\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.UnitTest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
