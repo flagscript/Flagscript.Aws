@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <ReleaseVersion>1.0.0</ReleaseVersion>
+    <ReleaseVersion>1.0.1</ReleaseVersion>
     <PackOnBuild>true</PackOnBuild>
     <Authors>Greg Kaestle, Flagscript</Authors>
     <PackageIconUrl>https://raw.githubusercontent.com/flagscript/Flagscript/master/flagscript-nuget.png</PackageIconUrl>
@@ -11,13 +11,13 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Owners>Flagscript</Owners>
     <PackageProjectUrl>https://github.com/flagscript/Flagscript.Alexa</PackageProjectUrl>
-    <PackageReleaseNotes>Initial Release. </PackageReleaseNotes>
+    <PackageReleaseNotes>Documentation Fixes.</PackageReleaseNotes>
     <Summary>.NET Standard Base Library when working with Amazon Web Services.</Summary>
     <PackageTags>flagscript, aws, aws-lambda, dotnet, dotnet-core, dotnet-standard, dotnet-library</PackageTags>
     <Title>Flagscript.Aws</Title>
     <Description>.NET Standard Base Library when working with Amazon Web Services.</Description>
     <PackageId>Flagscript.Aws</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
