@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ReleaseVersion>1.0.0</ReleaseVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Greg Kaestle, Flagscript</Authors>
+    <PackageIconUrl>https://raw.githubusercontent.com/flagscript/Flagscript/master/flagscript-nuget.png</PackageIconUrl>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/flagscript/Flagscript.Aws/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Owners>Flagscript</Owners>
+    <PackageProjectUrl>https://github.com/flagscript/Flagscript.Alexa</PackageProjectUrl>
+    <PackageReleaseNotes>Initial Release. </PackageReleaseNotes>
+    <Summary>.NET Standard Base Library when working with Amazon Web Services.</Summary>
+    <PackageTags>flagscript, aws, aws-lambda, dotnet, dotnet-core, dotnet-standard, dotnet-library</PackageTags>
+    <Title>Flagscript.Aws</Title>
+    <Description>.NET Standard Base Library when working with Amazon Web Services.</Description>
+    <PackageId>Flagscript.Aws</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Startup\" />
+  </ItemGroup>
+</Project>
