@@ -11,4 +11,4 @@ Authors:
 * [Greg Kaestle](mailto:flagscript@gmail.com)  
 
 # Resolved Issues:    
-* #2, #3, #4  
+* #1, #2, #3  
